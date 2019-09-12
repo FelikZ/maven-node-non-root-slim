@@ -92,6 +92,6 @@ RUN chown maven:maven $USER_HOME_DIR -R
 
 # end maven base
 
-USER maven
+# USER maven
 
 CMD ["mvn"]
